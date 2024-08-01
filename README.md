@@ -7,10 +7,11 @@ Routes:
 - GET /students/:id - Get infos from a specific student
 - PUT /students/:id - Udate student
 - DELETE /students/:id - Delete student
+- GET /students?active=<true/false> - List all active/non-active students
 
 Struct Student:
-- Name
-- CPF 
-- Email
-- Age 
-- Active
+- Name    (string)
+- CPF     (int)
+- Email   (string)
+- Age     (int)
+- Active  (bool)
